@@ -4,22 +4,18 @@ using System.Text;
 
 namespace Entrega_4_POO
 {
-    public class Reception : Maquina
+    public class Ensamblaje: Maquina
     {
-        public Reception()
-        {
-        }
-
         public override void Encendido()
         {
-            Console.WriteLine("Recepcion esta funcionando...");
+            Console.WriteLine("Ensablaje esta funcionando...");
 
         }
-        int memoria;
         public override void Reiniciar(int memoria)
         {
             memoria = 0;
-            Console.WriteLine("Memoria llena de recepcion");
+            Console.WriteLine("");
+            Console.WriteLine("Memoria llena de Ensamblaje");
             Console.WriteLine("Reiniciando...");
             Console.WriteLine("Memoria reiniciada");
         }
