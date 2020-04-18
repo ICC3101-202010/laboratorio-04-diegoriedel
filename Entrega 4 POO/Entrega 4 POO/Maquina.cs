@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entrega_4_POO
 {
-    public abstract class Central
+    public abstract class Maquina
     {
         public abstract void Encendido();
 
